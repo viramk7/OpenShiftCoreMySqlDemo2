@@ -22,7 +22,7 @@ namespace OpenShiftCoreMySqlDemo2.Controllers
         {
             var data = _context.Test.ToList();
 
-            return View();
+            return View(data);
         }
 
         public IActionResult About()
